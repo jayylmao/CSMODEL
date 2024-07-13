@@ -4,7 +4,8 @@ import pandas as pd
 class RuleMiner(object):
 	"""RuleMiner implements methods to get association rules 
 	using the market-basket model. This code is heavily based off of
-	the rule miner featured in Notebook 7.
+	the rule miner featured in a class activity given to the
+	researchers by Sir Arren Antioquia in July 2024.
 	"""
 
 	def __init__(self, support_threshold: int, confidence_threshold: int) -> None:
